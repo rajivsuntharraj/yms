@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: yms
+---
+server:
+  port: 8082

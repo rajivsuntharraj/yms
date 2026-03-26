@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: yms
+---
+server:
+  port: 8080
+---
+spring:
+  datasource:
+    url: mongodb://localhost:27017/yms
+---
+spring:
+  profiles:
+    active: dev
